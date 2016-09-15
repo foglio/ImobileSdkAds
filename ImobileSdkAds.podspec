@@ -101,8 +101,6 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Adapter' do |a|
-    a.source_files  = "Classes", "Classes/**/*.{h,m}"
-    a.exclude_files = "Classes/Exclude"
     a.vendored_libraries = "Resources/imobile_for_SP_app_iOS_SDK_2.0.24/lib/libAdapterIMobile.a"
   end
 
